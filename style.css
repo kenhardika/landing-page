@@ -13,7 +13,9 @@ body{
 .img-cards {
     height: 200px;
     width: 130px;
-    border-radius:10px;
+    padding: 5px;
+    border-radius:20px;
+    border: 2px solid #6f93c7;
 }
 
 .header{
@@ -60,6 +62,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    flex-shrink: 0;
     gap: 10px;
 }
 
@@ -80,6 +83,7 @@ a {
 
 .text {
     font-size: 18px;
+    width: 600px;
 }
 
 .middle {
@@ -90,7 +94,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 50px 0;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -101,6 +105,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 20px; 
+    padding-bottom: 50px;
 }
 
 .cards {
@@ -108,6 +113,64 @@ a {
     text-align: center;
 }
 
+.mid-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+    gap: 10px;
+}
+.quotes {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+    width: 600px;
+    color: #1f2937;
+}
+.source {
+    width: 600px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+}
+
+.bottom {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    margin: 100px 350px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.bot-box {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column ;
+}
+.text-bold {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+.text-under {
+    text-align: center;
+    color: white;
+}
+
+.button-bot {
+    margin-right: 50px;
+}
 
 button:hover {
     background-color: #0062ff;
@@ -127,4 +190,5 @@ button {
     border: 1px solid #3882F6;
     border-radius: 8px;
     box-shadow: 0 3px #0947aa;
+    width: 100px;
 }
